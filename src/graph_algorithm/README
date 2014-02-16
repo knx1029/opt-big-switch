@@ -1,0 +1,6 @@
+Batch_DFS.cpp
+	DFS Search Partition for a list of policies, each with specific shapes
+Java_LP
+	Java version of LP solver. Binary search find T
+LP_solver
+	C++ version of LP solver. Binary search find T
