@@ -1,12 +1,13 @@
+/**
+ * Author: Nanxi Kang (nkang@cs.princeton.edu) 
+ * All rights reserved.
+ */
 import java.io.File;
 
 public class Drive {
 	
 	public static String INPUT = "";
 	
-	//public static int TS_MIN = 0;
-	//public static int TS_MAX = 9;
-
 	public static boolean SAVE_ALLOC = true;
 	
 	public static double RATIO[][] ={

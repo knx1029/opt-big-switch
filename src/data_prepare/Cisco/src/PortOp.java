@@ -3,8 +3,6 @@
  * All rights reserved.
  */
 
-public class ResultRecord {
-	int Iterations;
-	
-	double timeLP, timeSolver;
+public enum PortOp {
+	Lt, Gt, Eq, Neq, Range, All
 }

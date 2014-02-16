@@ -1,3 +1,7 @@
+/**
+ * Author: Nanxi Kang (nkang@cs.princeton.edu) 
+ * All rights reserved.
+ */
 import java.io.BufferedInputStream;
 import java.io.File;
 import java.io.FileInputStream;

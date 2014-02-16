@@ -1,3 +1,7 @@
+/**
+ * Author: Nanxi Kang (nkang@cs.princeton.edu)
+ * All rights reserved.
+ */
 #include <iostream>
 #include <cstdio>
 #include <algorithm>
@@ -174,7 +178,7 @@ void update(long x, long y) {
   len[next_itr] = 1;
   r[next_itr][0].x = x;
   r[next_itr][0].y = y;
-  r[next_itr][0].a = -1;
+  r[next_itr][0].a = FWD;
   r[next_itr][0].c = 1;
   int l = 0;
   for (int i = 0; i < len[now_itr]; ++i) {
@@ -387,7 +391,6 @@ void read_in(ifstream &f_alloc, ifstream &f_policy) {
   for (int i = 0; i < N; ++i) {
     f_policy >> rule[i].x >> rule[i].y 
              >> sb >> se >> db >> de >> rule[i].c >> rule[i].a;
-    rule[i].c = 1;
   }
 
   now_itr = 0; 

@@ -1,3 +1,7 @@
+/**
+ * Author: Nanxi Kang (nkang@cs.princeton.edu) 
+ * All rights reserved.
+ */
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.FileWriter;

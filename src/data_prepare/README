@@ -1,0 +1,12 @@
+1. Convert ACL
+   Command:
+      java CiscoDrive $acl $result $literal_port.csv
+   Example (director = ./Cisco):
+     java CiscoDrive acl.txt output.txt literal_port.csv
+
+2. Convert ClassBench
+   Translate pattern and randomly generate actions
+   Command:
+      transform_cb $classbench_file $result $num_actions
+   Example: 
+      transform_cb acl1_10k acl1_10k.txt 2
